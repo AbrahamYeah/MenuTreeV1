@@ -1,0 +1,53 @@
+<?page title="Auto Generated index.zul"?>
+<?link rel="stylesheet" type="text/css" href="css/bootstrap.css"?>
+<?link rel="stylesheet" type="text/css" href="css/style.css"?>
+<?script type="text/javascript" src="js/jquery-1.12.js"?>
+<?script type="text/javascript" src="js/bootstrap.js"?>
+<zk>
+	<window>
+	<div sclass="row">
+		<div sclass="col-md-3">
+			<div id="uploadVideo"
+				viewModel="@id('vm') @init('tree.nodo.Menu')">
+
+				<tree model="@load(vm.model)" sclass="h4"></tree>
+
+			</div>
+		</div>
+
+		<div sclass="col-md-9">
+			<div sclass="container-fluid py-3">
+				<div sclass="container">
+					<div sclass="row text-center">
+						<div sclass="col-md-12 text-left">
+							<label value="Nombre"></label>
+							<separator></separator>
+							<textbox sclass="form-control" />
+						</div>
+					</div>
+				</div>
+				<div sclass="container">
+					<div sclass="row text-center py-3">
+						<div sclass="col-md-5 text-left">
+							<label value="Edad"></label>
+							<separator></separator>
+							<textbox
+								sclass="form-control col-md-12 text-left" />
+						</div>
+						<div sclass="col-md-7 text-left">
+							<label value="Telefono"></label>
+							<separator></separator>
+							<textbox
+								sclass="form-control col-md-7 text-left" />
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+</window>
+
+
+
+</zk>
